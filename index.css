@@ -1,0 +1,101 @@
+* {
+  margin: 0; 
+  padding: 0; 
+  color:  #D5D4D8; 
+  font-family: "Inter", sans-serif; 
+  background-color: #ffffff;
+}
+
+/* main continer */
+
+.container{
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+}
+
+/* color scheme input container */
+
+.color-scheme-inputs-container{
+  display: flex; 
+  justify-content: space-around;
+  align-items: center;
+  background-color: #1F2937; 
+  box-sizing: border-box;
+  width: 500px; 
+  padding: 0.7rem; 
+  font-weight: 200; 
+}
+
+#seed-color{
+  cursor: pointer; 
+  border-radius: 0; 
+  border: solid #E5E5E5; 
+  width: 10%; 
+  height: 40px; 
+}
+
+#drop-down {
+  background-color: #1F2937;
+  padding: 0.7rem; 
+  border: #D5D4D8 solid 1px; 
+  border-radius: 5px; 
+  width: 50%; 
+  cursor: pointer;
+  font-weight: 200; 
+}
+
+#get-color-scheme-btn {
+  background-color: #3D4B60;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.7rem;  
+  padding: 0.8rem; 
+  cursor: pointer; 
+  font-weight: 200; 
+}
+
+/* color scheme container */
+
+.color-scheme-container{
+  display: flex; 
+}
+
+/* colors */
+
+.color-one, 
+.color-two, 
+.color-three, 
+.color-four, 
+.color-five {
+  height: 50vh; 
+  width: 100px; 
+}
+
+.color-one{
+  background-color: rgb(42, 41, 41);
+}
+
+.color-two{
+  background-color: rgb(136, 135, 135);
+}
+
+.color-three{
+  background-color:  rgb(42, 41, 41);
+}
+
+.color-four{
+  background-color:  rgb(136, 135, 135);
+}
+
+.color-five{
+  background-color:  rgb(42, 41, 41);
+}
+
+.hex{
+  text-align: center; 
+  background-color: #1F2937;
+  padding: 1rem; 
+  font-size: 0.8rem; 
+  font-weight: 200; 
+}
