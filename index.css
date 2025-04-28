@@ -22,7 +22,7 @@
   align-items: center;
   background-color: #1F2937; 
   box-sizing: border-box;
-  width: 500px; 
+  width: 700px; 
   padding: 0.7rem; 
   font-weight: 200; 
 }
@@ -69,7 +69,7 @@
 .color-four, 
 .color-five {
   height: 50vh; 
-  width: 100px; 
+  width: 140px; 
 }
 
 .color-one{
